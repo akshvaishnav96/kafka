@@ -16,12 +16,7 @@ const producer =  kafka.producer();
         partition:1,
         key:"rider2",
         value:JSON.stringify({lat:40.7128, lng:-74.0060,location:"London City"})
-      },
-        {
-        partition:2,
-        key:"rider3",
-        value:JSON.stringify({lat:40.7128, lng:-74.0060,location:"jaipur City"})
-      },
+      }
     ]
   })
 
